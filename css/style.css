@@ -4,6 +4,10 @@ header .row{
 }
 
 /* DEBUG */
+[class*="col"]{
+  border: 1px solid black;
+}
+
 .left_content{
   background-color: #051e34;
   height: 100vh;
