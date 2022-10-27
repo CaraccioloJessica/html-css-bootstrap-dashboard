@@ -16,41 +16,65 @@ nav img{
 
 .icon_inside {
   position:relative;
- }
+}
 
- .icon_inside i {
+.icon_inside i {
   position:absolute;
   left:0;
   top:10px;
   padding: 0 10px;
- }
+}
 
- .form-control{
+.form-control{
   background-color: #e5e5e5;
   border: none;
- }
+}
 
- .navbar-toggler{
+.navbar-toggler{
   border: none;
- }
+}
 
- .navbar-nav{
+.navbar-nav{
   flex-direction: row;
- }
+}
 
- .navbar-toggler:focus {
+.navbar-toggler:focus {
   box-shadow: none;
- }
+}
 
- .fa-bell{
+.fa-bell{
   color: #FFA431;
- }
+}
 
-/*********** CONTENUTO CENTRALE ***********/
+/*********** BARRA LATERALE ***********/
 .left_content{
   background-color: #051e34;
   margin-top: 60px;
+  position: relative;
+} 
+
+.icon_text a{
+  text-decoration: none;
+  color: #fff;
 }
+
+.icon_text{
+  font-size: 1.2rem;
+}
+
+.icon_text i{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.icon_text:last-child{
+  position: absolute;
+  left: 0;
+  bottom: 2rem;
+}
+
+/*********** CONTENUTO CENTRALE ***********/
 
 .right_content{
   background-color: #f8f9fa;
