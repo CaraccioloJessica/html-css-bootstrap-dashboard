@@ -38,6 +38,10 @@ nav img{
   box-shadow: none;
  }
 
+ .fa-bell{
+  color: #FFA431;
+ }
+
 /*********** CONTENUTO CENTRALE ***********/
 .left_content{
   background-color: #051e34;
