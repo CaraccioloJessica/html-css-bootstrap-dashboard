@@ -1,16 +1,11 @@
 header .row{
   background-color: #f8f9fa;
-  min-height: 70px;
+  height: 70px;
 }
 
-/* DEBUG */
-[class*="col"]{
-  border: 1px solid black;
-}
-
+/*********** CONTENUTO CENTRALE ***********/
 .left_content{
   background-color: #051e34;
-  height: 100vh;
   margin-top: 70px;
 }
 
@@ -23,4 +18,9 @@ header .row{
 .azure_bar{
   background-color: #1B72E8;
   height: 100px;
+}
+
+/*********** DEBUG ***********/
+[class*="col"]{
+  border: 1px solid black;
 }
