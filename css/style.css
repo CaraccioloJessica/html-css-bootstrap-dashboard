@@ -2,3 +2,21 @@ header .row{
   background-color: #f8f9fa;
   min-height: 70px;
 }
+
+/* DEBUG */
+.left_content{
+  background-color: #051e34;
+  height: 100vh;
+  margin-top: 70px;
+}
+
+.right_content{
+  background-color: #f8f9fa;
+  height: 100vh;
+  margin-top: 70px;
+}
+
+.azure_bar{
+  background-color: #1B72E8;
+  height: 100px;
+}
