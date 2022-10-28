@@ -60,7 +60,6 @@ nav img{
   background: linear-gradient(320deg, #172e45  30%, rgba(0,0,0,0) 31%), linear-gradient(40deg, #142B41 59%, #051E34 60%);
   margin-top: 60px;
   position: relative;
-  
 } 
 
 .icon_text a{
@@ -184,5 +183,49 @@ h1{
 }
 
 .dash_data{
-  padding: 15px;
+  padding: 20px;
+}
+
+.dash_data .row{
+  padding: 7px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-bottom: 1px solid #dedede;
+}
+
+.fa-code{
+  background-color: #f26551;
+  color: #fff;
+  padding: 5px 4px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.fa-pencil,.fa-trash{
+  cursor: pointer;
+  color: #6c757d;
+  padding: 6px;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+}
+
+.state_tag{
+  border-radius: 5px;
+  font-size: 0.6rem;
+  color: #fff;
+  width: 40px;
+  height: 17px;
+  padding: 0;
+}
+
+.green_tag{
+  background-color: #198754;
+}
+
+.yellow_tag{
+  background-color: #ffc107;
+}
+
+.red_tag{
+  background-color: #dc3545;
 }
