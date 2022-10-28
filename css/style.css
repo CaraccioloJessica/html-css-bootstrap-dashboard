@@ -178,7 +178,7 @@ h1{
 }
 
 .btn i{
-  color: #165bba;
+  color: #1B72E8;
   font-size: 2rem;
 }
 
@@ -188,7 +188,7 @@ h1{
 
 .dash_data .row{
   padding: 7px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
   border-bottom: 1px solid #dedede;
 }
@@ -213,8 +213,7 @@ h1{
   border-radius: 5px;
   font-size: 0.6rem;
   color: #fff;
-  width: 40px;
-  height: 17px;
+  height: 20px;
   padding: 0;
 }
 
