@@ -129,7 +129,6 @@ h1{
   font-size: 1.5rem;
   border-bottom: 1px solid #dedede;
   padding: 10px;
-  background-color: #f7f7f7;
 }
 
 .dash_content ul{
@@ -160,4 +159,9 @@ h1{
 
 .graph_top li:nth-child(3),.graph_top li:nth-child(4),.graph_top li:nth-child(5),.graph_top li:nth-child(6){
   border-bottom: 1px solid #dedede;
+}
+
+/* FAQ */
+.accordion-button:focus {
+  box-shadow: none;
 }
