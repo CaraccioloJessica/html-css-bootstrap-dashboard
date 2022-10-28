@@ -184,7 +184,15 @@ h1{
 
 .btn i{
   color: #1B72E8;
-  font-size: 2rem;
+  font-size: 1rem;
+  border: 1px solid #1B72E8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn i:hover{
+  color: #fff;
+  background-color: #1B72E8;
 }
 
 .dash_data{
