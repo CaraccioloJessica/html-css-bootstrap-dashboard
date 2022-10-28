@@ -3,6 +3,10 @@ a{
   text-decoration: none;
 }
 
+ul{
+  list-style: none;
+}
+
 header .row{
   background-color: #f8f9fa;
   height: 60px;
@@ -115,7 +119,29 @@ h1{
   font-size: 2rem;
 }
 
-/*********** DEBUG ***********/
-/* [class*="col"]{
-  border: 1px solid black;
-} */
+/************ CARD ************/
+.card{
+  border: 1px solid #dedede;
+}
+
+.card h2{
+  font-size: 1.5rem;
+  border-bottom: 1px solid #dedede;
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+.card ul{
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 15px;
+}
+.card li{
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.card li:nth-child(-n+2){
+  border-bottom: 1px solid #dedede;
+}
