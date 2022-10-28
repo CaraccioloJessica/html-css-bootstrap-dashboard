@@ -198,6 +198,10 @@ h1{
   border-bottom: 1px solid #dedede;
 }
 
+.dash_data .row:hover:nth-child(1n+2){
+  background-color: rgba(139, 139, 139, 0.1)
+}
+
 .fa-code{
   background-color: #f26551;
   color: #fff;
@@ -212,6 +216,11 @@ h1{
   padding: 6px;
   border: 1px solid #6c757d;
   border-radius: 5px;
+}
+
+.fa-pencil:hover, .fa-trash:hover{
+  color: #fff;
+  background-color: #6c757d;
 }
 
 .state_tag{
