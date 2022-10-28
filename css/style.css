@@ -1,3 +1,8 @@
+/* Generali */
+a{
+  text-decoration: none;
+}
+
 header .row{
   background-color: #f8f9fa;
   height: 60px;
@@ -54,7 +59,6 @@ nav img{
 } 
 
 .icon_text a{
-  text-decoration: none;
   color: #fff;
 }
 
@@ -86,6 +90,30 @@ nav img{
   margin-top: 60px;
 }
 
+h1{
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.azure_bar span{
+  background-color: #165bba;
+  padding: 3px 10px;
+  font-size: 0.7rem;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+.azure_bar a{
+  color: #fff;
+}
+
+.fa-angles-right{
+  font-size: 0.7rem;
+}
+
+.counter{
+  font-size: 2rem;
+}
 
 /*********** DEBUG ***********/
 /* [class*="col"]{
