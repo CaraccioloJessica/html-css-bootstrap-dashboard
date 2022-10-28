@@ -161,7 +161,25 @@ h1{
   border-bottom: 1px solid #dedede;
 }
 
-/* FAQ */
+/************** FAQ **************/
 .accordion-button:focus {
   box-shadow: none;
+}
+
+/************** CLASSI **************/
+.next_class{
+  border-bottom: 1px solid #dedede;
+}
+
+.next_class h2{
+  border: none;
+}
+
+.btn i{
+  color: #165bba;
+  font-size: 2rem;
+}
+
+.dash_data{
+  padding: 15px;
 }
