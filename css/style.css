@@ -113,6 +113,10 @@ h1{
   margin: 0 5px;
 }
 
+.azure_bar span:hover{
+  background-color: #134ea0;
+}
+
 .azure_bar a{
   color: #fff;
 }
