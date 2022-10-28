@@ -60,6 +60,7 @@ nav img{
   background: linear-gradient(320deg, #172e45  30%, rgba(0,0,0,0) 31%), linear-gradient(40deg, #142B41 59%, #051E34 60%);
   margin-top: 60px;
   position: relative;
+  
 } 
 
 .icon_text a{
@@ -92,6 +93,7 @@ nav img{
   background-color: #f8f9fa;
   height: 100vh;
   margin-top: 60px;
+  overflow-y: auto;
 }
 
 h1{
@@ -173,6 +175,7 @@ h1{
 
 .next_class h2{
   border: none;
+  margin: 0;
 }
 
 .btn i{
