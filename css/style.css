@@ -120,28 +120,44 @@ h1{
 }
 
 /************ CARD ************/
-.card{
+.dash_content{
   border: 1px solid #dedede;
+  border-radius: 10px;
 }
 
-.card h2{
+.dash_content h2{
   font-size: 1.5rem;
   border-bottom: 1px solid #dedede;
   padding: 10px;
   background-color: #f7f7f7;
 }
 
-.card ul{
+.dash_content ul{
   border: 1px solid #dedede;
   border-radius: 5px;
   padding: 0px;
   margin: 15px;
 }
-.card li{
+.dash_content li{
   padding: 10px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: 600;
 }
 
-.card li:nth-child(-n+2){
+.todo li:nth-child(-n+2){
+  border-bottom: 1px solid #dedede;
+}
+
+/************ GRAFICO ************/
+.graph_top img{
+ width: 100%;
+ height: auto;
+}
+
+.graph_top h3{
+  font-size: 1.3rem;
+}
+
+.graph_top li:nth-child(3),.graph_top li:nth-child(4),.graph_top li:nth-child(5),.graph_top li:nth-child(6){
   border-bottom: 1px solid #dedede;
 }
