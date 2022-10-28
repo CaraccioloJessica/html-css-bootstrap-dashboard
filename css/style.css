@@ -195,6 +195,35 @@ h1{
   background-color: #1B72E8;
 }
 
+.offcanvas-body input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.offcanvas-body button{
+  margin-top: 10px;
+  border-style: none;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.blue_btn{
+  background-color: #165bba;
+  color: #fff;
+}
+
+.blue_btn:hover{
+  background-color: #134ea0;
+}
+
+.yellow_btn{
+  background-color: #ffc107;
+}
+
+.yellow_btn:hover{
+  background-color: #ffcd39;
+}
+
 .dash_data{
   padding: 20px;
 }
